@@ -24,7 +24,7 @@ public class ResultsController {
 	@Autowired
 	RestTemplate restTemp;
 
-	@PostMapping(value = "/addStudentResults")
+	@PostMapping(value = "/addStudentMuraliResults")
 	public String addStudentResults() {
 		String url1 = "http://localhost:8080/getStudentList";
 		String url2 = "http://localhost:8081/getMarkSheetList";
